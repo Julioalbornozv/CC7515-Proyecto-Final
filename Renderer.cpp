@@ -216,9 +216,6 @@ void Renderer::runMultipleWFS(int programID, int WFSnum, int btwnFramesNum){
     OCLmanager->executeN(WFSnum,PX,PY,VX,VY);
     float** data = (float**)OCLmanager->getNResult();
     
-    for (int i = 0; i < 10; i++){
-        std::cout << "A: " << data[0][i] << " | B: " << data[1][i] << " | C: " << data[2][i] << std::endl;        
-        }
     
     // Generate triangulation
     float* vertices = new float[VX*VY*2];
@@ -281,7 +278,7 @@ void Renderer::runMultipleWFS(int programID, int WFSnum, int btwnFramesNum){
     
     /// Wireframe mode 
     /// TODO: Make it a toggleable option
-    glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
+    //glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
     
     int btwnFrameCounter = 0;
     int hmapIndex = 0;

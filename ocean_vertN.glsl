@@ -38,5 +38,5 @@ void main(){
     float fz = wA * vA.x + wB * vB.x + wC * vC.x;
     
     pos = vec3(vA.x, vB.x, fz);
-    gl_Position = trans * vec4(aPos.x, aPos.y, fz, 1.0);
+    gl_Position = trans * vec4(aPos.x, aPos.y, 0.0, 1.0);
     }
