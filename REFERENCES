@@ -1,0 +1,18 @@
+1. Xudong Yang, Xuexian Pi. GPU-Based Real-time Simulation and Rendering of Unbounded Ocean Surface
+2. Andreas Kolbe. Dynamic terrain rendering
+3. Claes Johanson. Real-time water Rendering, Introducing the projected grid concept
+4. Clifford A Shaffer, Hanan Samet. Optimal Quadtree construction algorithms
+5. Daniel Wagner. Terrain Geomorphing in the vertex shader
+6. Ken Perlin. Improving noise
+7. Marshall Bern, David Eppstein. Parallel construction of Quadtrees and quality triangulations
+8. P Cignoni, F Ganovelli. BDAM - Batched dynamic adaptive meshes for High performance terrain visualization
+9. Peter Lindstrom, David Koller. Real-time, continuous Level of Detail Rendering of Height Fields
+10. Renato Pajarola. Large scale terrain visualization using the Restricted Quadtree triangulation.
+11. Renato Pajarola. Overview of Quadtree-based Terrain Triangulation and Visualization
+12. Ron Sivan. Surface modeling using Quadtrees
+13. Willhelm H de Boer. Fast terrain rendering using geometrical MipMapping
+14. Zhao Youbing, Zhou Ji. A Fast Algorithm for large scale terrain walkthrough
+
+15. "Using Perlin Noise to Generate 2D Terrain and Water"; https://gpfault.net/posts/perlin-noise.txt.html
+16. "Terrain Rendering, Intel"; https://software.intel.com/content/www/us/en/develop/articles/terrain-rendering.html
+17. "Parallel Noise and Random Functions for OpenCL, Intel"; Kernelshttps://software.intel.com/content/www/us/en/develop/articles/parallel-noise-and-random-functions-for-opencl-kernels.html
